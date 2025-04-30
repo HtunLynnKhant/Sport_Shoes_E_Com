@@ -1,0 +1,64 @@
+body{
+  background: ghostwhite;
+}
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.btn-primary{
+  color: #fff;
+  border: none !important;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary.active{
+  transform: translateY(-1px) !important;
+}
+
+
+.btn-secondary:focus,
+.btn-secondary:hover,
+.btn-secondary.active{
+    box-shadow: 0 .125rem .25rem 0 rgba(133,146,163,.4) !important;
+    transform: translateY(-1px) !important;
+}
+.circle-container {
+  width: 3rem;
+  height: 3rem;
+}
+.icon-large {
+  font-size: 1.5rem; /* You can adjust the size as needed */
+}
+.db-bg{
+  color: #fff !important;
+  background: rgb(73,190,255);
+  background: linear-gradient(90deg, rgba(73,190,255,1) 0%, rgba(62,162,217,1) 100%);
+}
+.db-bg1{
+  color: #fff !important;
+  background: rgb(250,137,107);
+  background: linear-gradient(90deg, rgba(250,137,107,1) 0%, rgb(228, 165, 29) 100%);
+}
+
+.db-bg2{
+  color: #fff !important;
+  background: rgb(19,222,185);
+  background: linear-gradient(90deg, rgba(19,222,185,1) 0%, rgba(16,189,157,1) 100%);
+}
+
+.bg-white{
+  background-color: #fff !important;
+}
+
+.info-user{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
